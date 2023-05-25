@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--head top--*/
+marquee{
+    background-color: aquamarine;
+    color: green;
+}
+nav .container-fluid .row .col p{
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+nav .container-fluid .row .col p span{
+    color: green;
+}
+nav .container-fluid .row .col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav .container-fluid .row .col .i{
+    margin-top: 20px;
+    font-size: 20px;
+}
+nav .container-fluid .row .col .i .fa-brands{
+    color: green;
+    margin-left: 5px;
+}
+nav .container-fluid .row .col .btn button{
+    padding: 8px 15px;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 7px;
+    transition: .5s;
+}
+nav .container-fluid .row .col .btn button:hover{
+    background-color: green;
+    color: white;
+}
+/*--end head top--*/
+/*--menu bar--*/
+.navbar .container-fluid{
+    box-shadow: 2px 4px 9px rgba(0,0,0,0.2);
+}
+.navbar .container-fluid .collapse .navbar-nav{
+    margin-left: 100px;
+}
+.navbar .container-fluid .collapse .d-flex{
+    margin-right: 100px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: green;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item ul li a{
+    font-size: 18px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item ul li a:hover{
+    color: green;
+}
+/*--end menu bar--*/
+
+/* about */
+#about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about h3{
+    font-weight: bold;
+    color: green;
+    text-shadow: 0px 1px 1px black;
+}
+#about button{
+    width: 150px;
+    height: 36px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* about */
+
+
+
+
+/*--about section--*/
+#carouselExampleCaptions .carousel-inner .carousel-item  .carousel-caption h5{
+    font-size: 42px;
+    color: green;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item  .carousel-caption h5 span{
+    color: yellow;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item  .carousel-caption p{
+    color: green;
+    font-size: 25px;
+}
+#carouselExampleCaptions {
+margin-bottom: 20px;
+}
+/*--end about section--*/
+/*--electronic product card--*/
+#product-cards{
+    margin-top: 100px;
+}
+#product-cards h1{
+    color: GREEN;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid GREEN;
+}
+#product-cards .card h3{
+    font-size: 20px;
+    color: black;
+}
+#product-cards .card p{
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+}
+.star i{
+    margin-left: 5px;
+    font-size: 13px;
+}
+.checked{
+    color: green;
+}
+#product-cards .card h2{
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+#product-cards .card h2 span{
+    float: right;
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width:1000px){
+    #product-cards .card h3{
+        font-size: 15px;
+    }
+}
+/*--end celectronic product card--*/
+/* offer */
+#offer{
+    margin-top: 100px;
+}
+#offer i{
+    font-size: 32px;
+    color: green;
+}
+/*end offer */
+/* newslater */
+#newslater{
+    margin-top: 100px;
+}
+#newslater h3{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.input{
+    margin-top: 30px;
+}
+.input input{
+    width: 350px;
+    height: 36px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border:  1px solid black;
+    padding-left: 5px;
+}
+#subscribe{
+    width: 200px;
+    height: 36px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+    transition: .4s;
+}
+@media screen and (max-width:465px){
+    .input input{
+        width: 280px;
+    }
+    #subscribe{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:250px){
+    .input input{
+        width: 150px;
+    }
+    #subscribe{
+        width: 150px;
+    }
+}
+/*end newslater */
+
+
+
+/* footer */
+#footer{
+    padding: 0 0 30px 0px;
+    color: white;
+    font-size: 14px;
+    background-color: green;
+    margin-top: 100px;
+}
+#footer .footer-top{
+    padding: 60px 0 30px 0;
+    background-color: green;
+    color: white;
+}
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact h3{
+    color: #ffc800;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: white;
+}
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#footer .footer-top .footer-links h4{
+    color: #ffc800;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 1;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#footer .footer-top .footer-links ul li a:hover{
+    color: #ffc800;
+}
+#footer .footer-top .socail-links a{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #373737;
+    color: white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    transition: 0.5s ease;
+}
+#footer .footer-top .socail-links a:hover{
+    background-color: #ffc800;
+    color: white;
+}
+#footer .copyright{
+    text-align: center;
+    float: left;
+}
+#footer .credits{
+    float: right;
+    text-align: center;
+    font-size: 13px;
+}
+#footer .credits a{
+    color: #ffc800;
+}
+/*end footer */
+
+
+
+
+
+
+
+.arrow{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: green;
+}
+
+
+
+
+/* login */
+#login{
+    width: 65%;
+    height: 70vh;
+    background-color: green;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: rgba(17,12, 46, 0.15) 0px 48px 100px 0px;
+}
+#side1 h3{
+    color: #ffc800;
+    font-weight: bold;
+    margin-top: 200px;
+}
+#side2{
+    background-color: white;
+    height: 70vh;
+    border-radius: 10px;
+}
+#side2 h3{
+    margin-top: 30px;
+    color: green;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+}
+.input2 input{
+    margin-top: 15px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid green;
+}
+.input2 input ::placeholder{
+    font-weight: bold;
+}
+#btnlogin{
+    padding-top: 10px;
+}
+#btnlogin a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-shadow: 0px 0px 1px black;
+}
+#side2 p{
+    margin-top: 10px;
+}
+@media screen and (max-width:991px){
+    .input2 input{
+        width: 250px;
+    }
+}
+@media screen and (max-width:765px){
+    .input2 input{
+        width: 260px;
+    }
+    #side2{
+        height: 60vh;
+    }
+}
+/* login */
+
+
+
+
+
+/* contact */
+#contact{
+    margin-top: 50px;
+}
+#contact h3{
+    text-align: center;
+    color: green;
+    border-bottom: 2px solid green;
+    border-top: 2px solid green;
+    font-size: 40px;
+}
+#contact .card{
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111 ,0.2) 0px 7px 29px 0px;
+    transition: .4s;
+}
+#contact .card i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#contact .card h6{
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: green;
+}
+.messagebtn button{
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid green;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.messagebtn button:hover{
+    background-color: green;
+    color: white;
+}
+
+#contact #hover:hover{
+    background-image: url('img/Capture.PNG');
+}
+/* contact */
